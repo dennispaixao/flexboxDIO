@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end ;
+}
+nav ul{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end ;
+  
+}
+ul li{
+    list-style: none;
+    width:150px;
+    text-align: center;
+
+}
+ul li a:hover{
+    background:orangered;
+    color:black;
+    padding:4px;
+    border-radius: 3px;
+    transition:.3s;
+}
+a{
+    text-decoration: none;
+    color:wheat;
+}
+.adark{
+    color:rgb(4, 96, 233);;
+}
+.navbar{
+    display:flex;
+    width:992px;
+    background:rgb(4, 96, 233);
+    max-width: 992px;
+    margin:auto;
+
+}
+.flex-container{
+    max-width: 992px;
+    width:992px;
+    margin:40px auto;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap:10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+.flex-row{
+    flex-direction: row;
+
+}
+.servicos{
+    justify-content: space-between;
+    display:flex;
+    width:100%;
+    padding:30px;
+}
+.servico-item{
+    text-align: center;
+    background:rgb(4, 96, 233);
+    padding:20px;
+    border-radius: 20%;
+}
+.align-center{
+    align-items: center;
+    justify-content: baseline;
+}
+.justify-top{
+    align-items: baseline;
+}
+footer{
+    background:#2222ff;
+    color:white;
+    text-align: center;
+    padding:30px;
+}
